@@ -1,0 +1,68 @@
+
+input {
+    width: 100%;
+}
+
+
+.my-row{
+    margin: 10px 5px;
+}
+
+.my-button{
+    min-width: 80px;
+}
+
+:root {
+  --bg-color: #121212;
+  --card-bg: #1e1e1e;
+  --text-color: #f5f5f5;
+  --accent-color: #03846a;
+  --danger-color: #ef5350;
+  --input-bg: #2c2c2c;
+  --border-color: #333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container, .row {
+  margin: 0 auto;
+}
+
+input.form-control {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+input.form-control::placeholder {
+  color: #aaa;
+}
+
+.btn-success {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-success:hover {
+  background-color: #08be6f;
+  border-color: #0097a7;
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.todo-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}

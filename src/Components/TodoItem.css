@@ -1,0 +1,9 @@
+/* TodoItem.css */
+
+.bg-light {
+  transition: background-color 0.2s ease;
+}
+
+.bg-light:hover {
+  background-color: #e9ecef;
+}
